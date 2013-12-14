@@ -3,6 +3,7 @@ File-uploads-and-validation
 
 Uploading files and validating the extensions
 
+<?php
 
   /* Check if a file has been uploaded or not */
   if ( is_uploaded_file ( $_FILES['file_name']['tmp_name'] )) {
@@ -35,3 +36,5 @@ Uploading files and validating the extensions
 
   } // End of if(in_array($_FILES[..........
 } // End of main if ( is_uploaded_file
+
+?>
